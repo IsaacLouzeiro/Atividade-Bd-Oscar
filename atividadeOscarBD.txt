@@ -25,7 +25,7 @@ Quem tem mais Oscars: a categoria "Melhor Ator" ou "Melhor Filme"?
 Melhor Ator vence com 85.
 Melhor Filme perde com 83.
 
-select count(*) from vencedoresDOoscar where category = "Actor" and won = "YES";
+select count(*) from vencedoresDOoscar where category = "Actor -- Leading Role" and won = "YES";
 
 select count(*) from vencedoresDOoscar where category = "Best Picture" and won = "YES";
 
